@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vanilla App Template</title>
+  <title>Домашнє завдання №11</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
@@ -13,9 +14,13 @@
   <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
 
   <main>
-    <!-- Loads the specified .html file -->
-    <load src="./partials/vite-promo.html" />
-    <load src="./partials/badges.html" />
+    <div class="main-container">
+      <form class="search-form">
+        <input type="text" name="searchStr" id="searchStrInput">
+        <button type="submit" class="submitBtn">Search</button>
+      </form>
+      <ul class="gallery"></ul>
+    </div>
   </main>
 
   <load src="./partials/footer.html" />
