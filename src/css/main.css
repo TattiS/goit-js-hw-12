@@ -74,8 +74,8 @@
 }
 /* Gallery */
 .gallery {
-  padding-left: 156px;
-  padding-right: 156px;
+  padding-left: auto;
+  padding-right: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -84,6 +84,7 @@
   gap: 24px;
 }
 .gallery-card {
+  box-sizing: content-box;
   width: 360px;
   height: 200px;
   position: relative;
@@ -100,7 +101,7 @@
 .card-content {
   width: 360px;
   height: 48px;
-  border: none;
+  border-bottom: 1px solid #808080;
   background: #fff;
   display: flex;
   flex-direction: row;
@@ -108,7 +109,7 @@
   justify-content: space-around;
 
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
 }
 .stats {
   text-align: center;
@@ -134,7 +135,7 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #ff3d00;
+  background: #4e75ff;
   inset: 0;
   margin: auto;
   animation: mvX 0.6s, mvY 0.3s;
