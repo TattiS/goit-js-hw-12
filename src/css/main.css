@@ -50,7 +50,8 @@
   outline: none;
 }
 
-.submitBtn {
+.submitBtn,
+.loadMoreBtn {
   display: inline-flex;
   padding: 8px 16px;
   justify-content: center;
@@ -69,7 +70,8 @@
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
 }
-.submitBtn:hover {
+.submitBtn:hover,
+.loadMoreBtn:hover {
   background-color: #6c8cff;
 }
 /* Gallery */
