@@ -76,6 +76,7 @@
 }
 /* Gallery */
 .gallery {
+  width: 1440px;
   padding-left: auto;
   padding-right: auto;
   display: flex;
